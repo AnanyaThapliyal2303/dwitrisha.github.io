@@ -43,6 +43,8 @@ body {
 }
 
 .footer {
+  background-color: black;
+  margin-top: 5%;
   color: white;
   text-align: center;
 }
