@@ -43,14 +43,15 @@ body {
 
 .footer {
   background-color: rgba(0, 0, 0, 0.514);
-  margin-top: 7rem;
-  height: 1.5rem;
-  color: white;
+  margin-top: 3rem;
+
+  color: rgb(243, 168, 159);
   text-align: center;
-  position: fixed;
+  height: 2.1;
   left: 0;
   bottom: 0;
   width: 100%;
+  display: inline-block;
 }
 #grad {
   background-image: linear-gradient(to bottom right, black, grey);
