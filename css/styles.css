@@ -54,7 +54,7 @@ body {
   display: inline-block;
 }
 #grad {
-  background-image: linear-gradient(to bottom, grey, white);
+  background-image: linear-gradient(grey, white);
 }
 
 #bottomDiv {
