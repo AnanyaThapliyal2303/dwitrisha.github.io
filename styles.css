@@ -100,12 +100,10 @@ body {
 }
 
 .box {
-  width: 700px;
-
   padding: 0;
-  text-align: center;
-  margin: auto;
 
+  margin: auto;
+  text-align: center;
   color: white;
   font-family: "Century Gothic", sans-serif;
 }
