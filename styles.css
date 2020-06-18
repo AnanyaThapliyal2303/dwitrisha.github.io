@@ -88,6 +88,25 @@ body {
   bottom: 0px;
 }
 
+.grid {
+  display: grid;
+  text-align: center;
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (min-width: 550px) {
+  .grid {
+    display: grid;
+    text-align: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+  }
+}
 .para {
   font-size: 1.5rem;
   margin-left: 7rem;
