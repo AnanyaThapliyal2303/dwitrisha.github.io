@@ -8,6 +8,7 @@ body {
 
 .container {
   text-align: center;
+  margin: 7rem;
 }
 .contain {
   position: relative;
@@ -97,6 +98,7 @@ body {
 }
 .cntr {
   text-align: center;
+  color: antiquewhite;
 }
 
 .box {
