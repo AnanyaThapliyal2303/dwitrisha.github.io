@@ -8,7 +8,6 @@ body {
 
 .container {
   text-align: center;
-  margin: 7rem;
 }
 .contain {
   position: relative;
@@ -90,7 +89,6 @@ body {
 
 .grid {
   display: grid;
-  text-align: center;
 
   grid-template-columns: 1fr;
 
@@ -100,13 +98,13 @@ body {
 @media (min-width: 550px) {
   .grid {
     display: grid;
-    text-align: center;
 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
     grid-template-rows: 1fr;
   }
 }
+
 .para {
   font-size: 1.5rem;
   margin-left: 7rem;
