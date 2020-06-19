@@ -63,13 +63,13 @@ body {
   background-image: "https://image.flaticon.com/icons/svg/1807/1807616.svg";
   border: 1px solid salmon;
   background: rgb(201, 90, 77);
-  padding: 10px 20px;
+
   width: 3cm;
   font-size: 20px;
   font-family: "montserrat";
   font-weight: 200;
   cursor: pointer;
-  margin: 10px;
+
   transition: 0.8s;
   position: relative;
   overflow: hidden;
