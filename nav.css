@@ -64,7 +64,7 @@ body {
   border: 1px solid salmon;
   background: rgb(201, 90, 77);
 
-  width: 2.1cm;
+  width: 1.7cm;
   font-size: 15px;
   font-family: "montserrat";
   font-weight: 200;
@@ -145,10 +145,11 @@ body {
 }
 
 .box {
-  padding: 0;
+  padding: 3;
+  border: 1px;
+  margin: 3;
+  size: 7rem;
 
-  margin: auto;
-  text-align: center;
   color: white;
   font-family: "Century Gothic", sans-serif;
 }
