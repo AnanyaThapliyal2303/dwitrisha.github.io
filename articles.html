@@ -5,38 +5,48 @@
   <head>
     <div class="container">
       <img src="./sign.png" style="width: 21%;" />
+
+      <div class="topnav" id="myTopnav"></div>
       <ul>
         <li>
           <a href="index.html">
-            <button class="btn" :hover ::before>Home</button></a
+            <button class="btn dropbtn" :hover ::before>Home</button></a
           >
         </li>
         <li>
           <a href="./projects.html">
-            <button class="btn" :hover ::before>Projects</button></a
+            <button class="btn dropbtn" :hover ::before>Projects</button></a
           >
         </li>
         <li>
           <a href="articles.html">
-            <button class="btn" :hover ::before>Articles</button>
+            <button class="btn dropbtn" :hover ::before>Articles</button>
           </a>
         </li>
-        <li>
-          <a href="Dwitrisha Saha-Resume.pdf" target="_blank"
-            ><button class="btn" :hover ::before>Resume</button>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Dwitrisha" target="_blank"
-            ><button class="btn" :hover ::before>GitHub</button>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/dwitrisha-saha-183606197/"
-            target="_blank"
-            ><button class="btn" :hover ::before>LinkedIn</button>
-          </a>
+        <li class="dropdown">
+        
+            <a href="articles.html">
+            <button class="btn dropbtn" :hover ::before>More</button>
+          </a> 
+             
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Dwitrisha Saha-Resume.pdf" target="_blank"
+                ><button class="btn" :hover ::before>Resume</button>
+              </a>
+
+              <a href="https://github.com/Dwitrisha" target="_blank"
+                ><button class="btn" :hover ::before>GitHub</button>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/dwitrisha-saha-183606197/"
+                target="_blank"
+                ><button class="btn" :hover ::before>LinkedIn</button>
+              </a>
+            </div>
+         
         </li>
       </ul>
     </div>
