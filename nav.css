@@ -68,7 +68,8 @@ body {
   border: 1px solid salmon;
   background: rgb(201, 90, 77);
 
-  width: 1.7cm;
+  width: 2.1cm;
+  padding: 2mm;
   font-size: 15px;
   font-family: "montserrat";
   font-weight: 200;
