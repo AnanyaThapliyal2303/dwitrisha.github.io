@@ -9,6 +9,7 @@ ul {
 .navicon {
   margin: 2mm;
   font-size: 7mm;
+  color: white;
 }
 
 li {
@@ -149,6 +150,13 @@ body {
   color: antiquewhite;
 }
 
+.link {
+  text-align: center;
+  size: 3rem;
+  font-weight: bold;
+  color: rgba(255, 167, 167, 0.815);
+  font-family: "Century Gothic", sans-serif;
+}
 .box {
   padding: 3;
   border: 1px;
