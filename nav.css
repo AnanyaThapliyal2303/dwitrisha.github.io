@@ -246,3 +246,23 @@ body {
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+.projectgrid {
+  display: grid;
+  text-align: center;
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+@media (min-width: 750px) {
+  .projectgrid {
+    display: grid;
+    text-align: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr;
+  }
+}
