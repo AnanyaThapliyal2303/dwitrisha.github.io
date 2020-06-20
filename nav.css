@@ -147,9 +147,17 @@ body {
 }
 .cntr {
   text-align: center;
-  color: antiquewhite;
 }
-
+.bold {
+  font-weight: bold;
+}
+.back {
+  background-color: white;
+  font: 800;
+  font-size: 20;
+  color: black;
+  font-family: "Century Gothic", sans-serif;
+}
 .link {
   text-align: center;
   size: 3rem;
