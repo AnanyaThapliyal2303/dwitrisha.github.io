@@ -48,6 +48,7 @@ body {
   position: relative;
   overflow: hidden;
   color: white;
+  border-radius:15px;
 }
 .btn:hover {
   color: black;
