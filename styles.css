@@ -4,6 +4,15 @@ body {
 
   font-family: "Lora";
   background-color: rgba(102, 94, 94, 0.925);
+
+   background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+        background-image: linear-gradient(to bottom,rgba(102, 94, 94, 0.925) 0%, #ebd8dc 100%);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+        font-family: "Vibur", cursive;
+        /*   the main font */
+        font-family: "Abel", sans-serif;
 }
 
 .container {
@@ -48,6 +57,7 @@ body {
   position: relative;
   overflow: hidden;
   color: white;
+  border-radius:15px;
 }
 .btn:hover {
   color: black;
